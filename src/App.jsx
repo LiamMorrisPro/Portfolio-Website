@@ -79,7 +79,7 @@ function App() {
         stroke="red"
         strokeWidth="2"
         
-        onClick={() => window.open('/Liam Morris Resume.pdf', '_blank')}
+        onClick={() => window.open('Liam Morris Resume.pdf', '_blank')}
         style={{ cursor: 'pointer' }}
         />
       </svg>      
