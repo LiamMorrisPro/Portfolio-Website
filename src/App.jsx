@@ -21,8 +21,8 @@ function App() {
 
   return (
     <>
-      <img src="/bookshelf.PNG" className="sideImage rightSideImage" alt="right" />
-      <img src="/desk.PNG" className="sideImage leftSideImage" alt="left" />
+      <img src="bookshelf.PNG" className="sideImage rightSideImage" alt="right" />
+      <img src="desk.PNG" className="sideImage leftSideImage" alt="left" />
       <svg
       className="sideSvg"
       viewBox="0 0 1920 1080"
