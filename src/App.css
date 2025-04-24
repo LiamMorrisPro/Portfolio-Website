@@ -1,0 +1,32 @@
+
+
+
+
+
+.sideImage {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: auto;
+  z-index: 1; /* make sure it's under content if needed */
+}
+
+.leftSideImage {
+  left: 0;
+  z-index: 1;
+}
+
+.rightSideImage {
+  right: 0;
+  z-index: 2;
+}
+
+.sideSvg {
+  position: fixed;         /* Keep it stuck to the screen */
+  top: 0;
+  bottom: 0;
+  right: 0;                 /* Change to right: 0 for right side */
+  height: 100vh;
+  width: auto;
+  z-index: 10;
+}
