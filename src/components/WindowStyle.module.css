@@ -1,0 +1,46 @@
+
+
+.WindowStyle {
+    display: inline-grid;
+    grid-template-rows: 50px auto;
+    grid-template-columns: 1;
+
+    position: absolute;
+    touch-action: none; 
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+
+    background-color: var(--color-dark);
+    color: var(--color-text);
+    box-shadow: 0px 10px 5px rgb(58, 58, 58);
+    overflow: hidden;
+}
+.WindowContentsStyle {
+    display: flex;
+    flex-direction: column;
+    height: 100%;  
+    z-index: 10;
+    flex: 1;
+    color: var(--color-text);
+    
+}
+.WindowGrabberStyle {
+    background-color:  var(--color-primary);
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 0;
+}
+.ButtonStyle {
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    background-color: var(--color-primary);
+    color: hsl(0, 0.00%, 100.00%);
+    border: none;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 30; 
+}

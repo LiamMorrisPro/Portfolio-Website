@@ -11,15 +11,15 @@ export default function SoundButton(props){
         height: props.iconSize,
         borderRadius: '50%',
         objectFit: 'cover',
-        marginRight: '0.5rem',
+        marginRight: '1rem',
         cursor: 'pointer',
         transition: 'transform 0.1s ease-in-out',
         transform: isClicked ? 'scale(0.85)' : 'scale(1)',
     }
     
     const sound = new Howl({
-        src:['./sounds/click.ogg'],
-        format: ['ogg'],
+        src:['./sounds/click.mp3'],
+        format: ['mp3'],
         volume: '1.0',
     });
 
